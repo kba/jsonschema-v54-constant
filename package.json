@@ -1,0 +1,29 @@
+{
+  "name": "jsonschema-v54-constant",
+  "version": "0.0.1",
+  "description": "Convert v5 constants to v4 constructs",
+  "main": "index.js",
+  "scripts": {
+      "prepublish": "make all",
+      "test": "make all && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kba/jsonschema-v54-constant.git"
+  },
+  "keywords": [
+    "json-schema",
+    "v5",
+    "v4",
+    "constant"
+  ],
+  "author": "kba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kba/jsonschema-v54-constant/issues"
+  },
+  "homepage": "https://github.com/kba/jsonschema-v54-constant#readme",
+  "dependencies": {
+    "tape": "^4.6.0"
+  }
+}
